@@ -12,6 +12,7 @@ class UserServiceTest {
         UserService userService = new UserService();
         UsernameDTO expected = new UsernameDTO(1, "Test1");
         try {
+            System.out.println("Test message");
             UsernameDTO user = userService.getUserById(1);
             Assertions.assertEquals(expected, user);
         } catch (Exception e) {
