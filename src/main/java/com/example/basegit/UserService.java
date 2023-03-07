@@ -9,6 +9,8 @@ public class UserService {
     }
 
     private List<UsernameDTO> users() {
-        return List.of(new UsernameDTO(1, "Test1"), new UsernameDTO(2, "Test3"), new UsernameDTO(3, "Test3"));
+        return List.of(new UsernameDTO(1, "Test1"),
+                new UsernameDTO(2, "Test3"),
+                new UsernameDTO(3, "Test3"));
     }
 }

@@ -9,7 +9,7 @@ public class UsernameDTO {
     public UsernameDTO() {
     }
 
-    public UsernameDTO(Integer id, String type) {
+    public UsernameDTO(Integer id, String type)  {
         this.id = id;
         this.type = type;
     }

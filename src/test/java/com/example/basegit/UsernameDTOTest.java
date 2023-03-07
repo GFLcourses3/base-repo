@@ -28,4 +28,10 @@ class UsernameDTOTest {
         emptyConstructorDTO.setType("Test1");
         Assertions.assertNotEquals(true, Objects.equals(emptyConstructorDTO, usernameDTO));
     }
+
+    @Test
+    public void testDTONotNull() {
+        UsernameDTO usernameDTO = new UsernameDTO(1, "Test");
+        Assertions.assertNotNull(usernameDTO);
+    }
 }
