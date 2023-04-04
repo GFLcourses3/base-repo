@@ -108,5 +108,4 @@ public class ThreadPoolTest {
         countDownLatch.await(5, TimeUnit.SECONDS);
         scheduleTask.cancel(true);
     }
-
 }
